@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(5, 5, 58);
+}
+.pass{
+   padding: 30px;
+}
+.head{
+    color: aliceblue;
+    margin-bottom: 40px;
+}
+.head span {
+    color: #019f55;
+    border-bottom: 5px solid #019f55;
+}
+.input{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12px;
+    height: 55px;
+    font-size: 30px;
+    width: 450px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+::placeholder{
+    font-size: 17px;
+}
+.input input{
+    border: none;
+    outline: none;
+    width: 90%;
+}
+.input svg{
+    color: #019f55;
+    padding-left: 10px;
+    border-left: 2px solid #019f55;
+}
+@media (max-width:508px) {
+    .input{
+        /* font-size: 20px; */
+        width: 350px;
+    }
+}
+.btn{
+    padding: 13px;
+    background-color: #019f55;
+    border: none;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.btn svg{
+    font-size: 15px;
+    padding-right: 4px;
+}
+.copy{
+    border: none;
+    font-size: 40px;
+    padding: 2px;
+    cursor: pointer;
+}
